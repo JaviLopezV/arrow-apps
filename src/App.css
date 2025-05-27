@@ -1,0 +1,6 @@
+.white-cilds {
+  color: white;
+  * {
+    color: white;
+  }
+}

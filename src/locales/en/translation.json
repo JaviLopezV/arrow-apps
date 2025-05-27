@@ -1,0 +1,113 @@
+{
+  "home": "Home",
+  "products": "Products",
+  "about": "About Us",
+  "contact": "Contact",
+  "videos": "Videos",
+  "quote": "Request a Quote",
+
+  "title": "Site Under Construction",
+  "subtitle": "We're working to have the site ready very soon. Thanks for your patience!",
+
+  "privacy_policy_title": "Privacy Policy",
+  "intro": "In accordance with Regulation (EU) 2016/679 (GDPR) and Organic Law 3/2018, we inform you about the processing of your personal data:",
+  "responsible": "1. Data Controller",
+  "responsible_name": "- Controller:",
+  "responsible_nif": "- Tax ID:",
+  "responsible_address": "- Address:",
+  "responsible_email": "- Email:",
+  "purpose": "2. Purpose of Processing",
+  "purpose_content": "Your data will only be used to manage and respond to queries sent via the contact form.",
+  "legal": "3. Legal Basis",
+  "legal_content": "The legal basis is your express consent, given by checking the corresponding box before submitting the form.",
+  "data": "4. Data Processed",
+  "data_content": "The following data are processed: name, email address, and message content.",
+  "recipients": "5. Data Recipients",
+  "recipients_content_1": "Data will not be shared with third parties unless legally required. EmailJS is used to send form messages:",
+  "recipients_content_2": "- Provider: EmailJS Inc.",
+  "recipients_content_3": "- Purpose: Sending emails from the form",
+  "recipients_content_4": "- Policy:",
+  "retention": "6. Data Retention",
+  "retention_content": "Data will be kept for up to 12 months or as long as necessary to respond to your request.",
+  "rights": "7. Your Rights",
+  "rights_content": "You may exercise your rights of access, rectification, deletion, objection, restriction and portability by emailing info@extintorespanoramica.com. You may also file a complaint with the AEPD:",
+  "security": "8. Security Measures",
+  "security_content": "Technical and organisational measures have been adopted to protect your data from unauthorised access or accidental loss.",
+  "changes": "9. Changes to this Policy",
+  "changes_content_1": "We reserve the right to update this policy to reflect regulatory changes.",
+  "changes_content_2": "Last updated: ",
+
+  "privacy_policy_reed": "I have read and accept the",
+  "privacy_policy": "Privacy Policy",
+
+  "first_name": "First name",
+  "last_name": "Last name",
+  "address_line": "Address line",
+  "city": "City",
+  "message": "Message",
+  "postcode": "Postcode",
+
+  "send": "Send",
+  "accept_terms": "You must accept the terms and conditions.",
+  "message_sent_success": "Message sent successfully.",
+  "message_sent_error": "An error occurred, please try again.",
+
+  "contact_us": "Contact us",
+
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: 24 May 2025",
+
+    "section1": {
+      "title": "1. Site Use",
+      "content": "This site is for informational purposes only. You may browse our sections, view our products and facilities, and contact us through the form. Misuse of the site is strictly prohibited."
+    },
+
+    "section2": {
+      "title": "2. Intellectual Property",
+      "content": "All content on this website, including text, images, logos, graphics, and design, is owned by the Company or respective owners and is protected by intellectual property laws."
+    },
+
+    "section3": {
+      "title": "3. Contact via EmailJS",
+      "content": "The contact form uses EmailJS. By using it, you agree to have your data processed for the purpose of responding to your query. See our Privacy Policy for more."
+    },
+
+    "section4": {
+      "title": "4. Content Accuracy",
+      "content": "We strive to keep the information up to date, but we do not guarantee complete accuracy or error-free content."
+    },
+
+    "section5": {
+      "title": "5. Limitation of Liability",
+      "content": "We are not liable for damages resulting from the use of the site, or technical issues or third-party services."
+    },
+
+    "section6": {
+      "title": "6. Third-Party Links",
+      "content": "We may include links to third-party sites. We do not control or take responsibility for their content or policies."
+    },
+
+    "section7": {
+      "title": "7. Changes to Terms",
+      "content": "We reserve the right to change these terms at any time. Continued use implies acceptance of the changes."
+    },
+
+    "section8": {
+      "title": "8. Contact",
+      "content": "If you have questions, contact us at: "
+    }
+  },
+
+  "email": "Email:",
+  "phone": "Phone:",
+  "contact_intro": "If you have any questions or inquiries, feel free to contact us.",
+  "where_are_we": "Where are we?",
+  "location_description": "We are located in an easily accessible area.",
+  "newsletter_cta": "Subscribe to receive weekly updates. No spam!",
+  "join_newsletter": "Join the newsletter",
+  "latest": "Latest",
+  "your_email": "Your email",
+  "install_app": "Install App",
+  "no_thanks": "No, thanks"
+}

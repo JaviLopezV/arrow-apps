@@ -1,0 +1,113 @@
+{
+  "home": "Inici",
+  "products": "Productes",
+  "about": "Qui som",
+  "contact": "Contacte",
+  "videos": "Vídeos",
+  "quote": "Demanar Pressupost",
+
+  "title": "Lloc en construcció",
+  "subtitle": "Estem treballant per tenir el lloc llest ben aviat. Gràcies per la teva paciència!",
+
+  "privacy_policy_title": "Política de Privacitat",
+  "intro": "D'acord amb el Reglament (UE) 2016/679 (RGPD) i la Llei Orgànica 3/2018 (LOPDGDD), t'informem sobre el tractament de les teves dades personals:",
+  "responsible": "1. Responsable del tractament",
+  "responsible_name": "- Responsable:",
+  "responsible_nif": "- NIF:",
+  "responsible_address": "- Adreça:",
+  "responsible_email": "- Correu electrònic:",
+  "purpose": "2. Finalitat del tractament",
+  "purpose_content": "Les teves dades només s'utilitzaran per gestionar i respondre consultes enviades mitjançant el formulari de contacte.",
+  "legal": "3. Base legal",
+  "legal_content": "La base legal és el teu consentiment exprés, atorgat en marcar la casella corresponent abans d'enviar el formulari.",
+  "data": "4. Dades tractades",
+  "data_content": "Es tracten les següents dades: nom, adreça electrònica i contingut del missatge.",
+  "recipients": "5. Destinataris de les dades",
+  "recipients_content_1": "Les dades no es comunicaran a tercers, excepte obligació legal. Es fa servir EmailJS per a l'enviament dels formularis:",
+  "recipients_content_2": "- Proveïdor: EmailJS Inc.",
+  "recipients_content_3": "- Finalitat: Enviament de correus des del formulari",
+  "recipients_content_4": "- Política:",
+  "retention": "6. Conservació de les dades",
+  "retention_content": "Les dades es conservaran un màxim de 12 mesos o el temps necessari per respondre a la teva sol·licitud.",
+  "rights": "7. Drets de l'usuari",
+  "rights_content": "Pots exercir els teus drets d'accés, rectificació, supressió, oposició, limitació i portabilitat enviant un correu a info@extintorespanoramica.com. També pots reclamar davant l'AEPD:",
+  "security": "8. Mesures de seguretat",
+  "security_content": "S'han adoptat mesures tècniques i organitzatives per protegir les teves dades davant accessos no autoritzats o pèrdues accidentals.",
+  "changes": "9. Canvis en aquesta política",
+  "changes_content_1": "Ens reservem el dret d'actualitzar aquesta política per reflectir canvis normatius.",
+  "changes_content_2": "Última actualització: ",
+
+  "privacy_policy_reed": "He llegit i accepto la",
+  "privacy_policy": "Política de privacitat",
+
+  "first_name": "Nom",
+  "last_name": "Cognom",
+  "address_line": "Adreça",
+  "city": "Ciutat",
+  "message": "Missatge",
+  "postcode": "Codi postal",
+
+  "send": "Enviar",
+  "accept_terms": "Has d'acceptar els termes i condicions.",
+  "message_sent_success": "Missatge enviat correctament.",
+  "message_sent_error": "S'ha produït un error, torna-ho a intentar.",
+
+  "contact_us": "Contacta'ns",
+
+  "terms": {
+    "title": "Termes de Servei",
+    "lastUpdated": "Última actualització: 24 de maig de 2025",
+
+    "section1": {
+      "title": "1. Ús del lloc",
+      "content": "Aquest lloc és només per a finalitats informatives. Pots navegar per les nostres seccions, veure productes i instal·lacions i contactar-nos mitjançant el formulari. L’ús indegut està estrictament prohibit."
+    },
+
+    "section2": {
+      "title": "2. Propietat Intel·lectual",
+      "content": "Tot el contingut d’aquest lloc, incloent textos, imatges, logotips, gràfics i disseny, és propietat de l’empresa o dels seus titulars i està protegit per lleis de propietat intel·lectual."
+    },
+
+    "section3": {
+      "title": "3. Contacte mitjançant EmailJS",
+      "content": "El formulari de contacte utilitza EmailJS. En fer-lo servir, acceptes que les teves dades es processin per respondre a la consulta. Consulta la Política de Privadesa per a més informació."
+    },
+
+    "section4": {
+      "title": "4. Exactitud del Contingut",
+      "content": "Ens esforcem per mantenir la informació actualitzada, però no garantim que sigui completament exacta ni lliure d’errors."
+    },
+
+    "section5": {
+      "title": "5. Limitació de Responsabilitat",
+      "content": "No som responsables dels danys derivats de l’ús del lloc, ni per problemes tècnics o serveis externs."
+    },
+
+    "section6": {
+      "title": "6. Enllaços a Tercers",
+      "content": "Aquest lloc pot incloure enllaços a webs de tercers. No en controlem ni en som responsables pel contingut ni les polítiques."
+    },
+
+    "section7": {
+      "title": "7. Canvis als Termes",
+      "content": "Ens reservem el dret de modificar aquests termes en qualsevol moment. L’ús continuat implica acceptació dels canvis."
+    },
+
+    "section8": {
+      "title": "8. Contacte",
+      "content": "Per a qualsevol consulta, escriu-nos a: "
+    }
+  },
+
+  "email": "Correu electrònic:",
+  "phone": "Telèfon:",
+  "contact_intro": "Si tens cap dubte o consulta, no dubtis a contactar-nos.",
+  "where_are_we": "On som?",
+  "location_description": "Ens trobem en una ubicació de fàcil accés.",
+  "newsletter_cta": "Subscriu-te per rebre actualitzacions setmanals. Sense spam!",
+  "join_newsletter": "Uneix-te al butlletí",
+  "latest": "Últims",
+  "your_email": "El teu correu electrònic",
+  "install_app": "Instal·lar App",
+  "no_thanks": "No, gràcies"
+}
