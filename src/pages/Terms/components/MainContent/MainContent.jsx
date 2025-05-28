@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Box, Link as MuiLink } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 import { useTranslation } from "react-i18next";
 import Spacer from "../../../../components/Spacer/Spacer";
 
@@ -60,12 +60,7 @@ const MainContent = () => {
       <Typography variant="h6" gutterBottom>
         {t("terms.section8.title")}
       </Typography>
-      <Typography variant="body1">
-        {t("terms.section8.content")}
-        <MuiLink href="mailto:info@extintorespanoramica.com">
-          info@extintorespanoramica.com
-        </MuiLink>
-      </Typography>
+      <Typography variant="body1">{t("terms.section8.content")}</Typography>
     </Box>
   );
 };

@@ -49,7 +49,7 @@ export default function Home() {
           <MainContent />
           <Spacer size={2} />
         </Container>
-        <Footer showSubscribe={false} />
+        <Footer />
       </Box>
     </Box>
   );

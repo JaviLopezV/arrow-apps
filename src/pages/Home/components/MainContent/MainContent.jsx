@@ -7,6 +7,7 @@ import {
   Grid,
   Link,
   Box,
+  Link as MuiLink,
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
@@ -18,6 +19,7 @@ const projects = [
     image:
       "https://cdn.prod.website-files.com/5f5a53e153805db840dae2db/64e79ca5aff2fb7295bfddf9_github-que-es.jpg",
     url: "https://github.com/JaviLopezV/empresa-pci",
+    website: "https://empresa-pci.vercel.app/",
   },
   {
     title: "Proyecto 2",
@@ -26,6 +28,7 @@ const projects = [
     image:
       "https://cdn.prod.website-files.com/5f5a53e153805db840dae2db/64e79ca5aff2fb7295bfddf9_github-que-es.jpg",
     url: "https://github.com/JaviLopezV/empresa-pci",
+    website: "https://empresa-pci.vercel.app/",
   },
   {
     title: "Proyecto 3",
@@ -34,6 +37,7 @@ const projects = [
     image:
       "https://cdn.prod.website-files.com/5f5a53e153805db840dae2db/64e79ca5aff2fb7295bfddf9_github-que-es.jpg",
     url: "https://github.com/JaviLopezV/empresa-pci",
+    website: "https://empresa-pci.vercel.app/",
   },
   {
     title: "Proyecto 4",
@@ -42,6 +46,7 @@ const projects = [
     image:
       "https://cdn.prod.website-files.com/5f5a53e153805db840dae2db/64e79ca5aff2fb7295bfddf9_github-que-es.jpg",
     url: "https://github.com/JaviLopezV/empresa-pci",
+    website: "https://empresa-pci.vercel.app/",
   },
 ];
 
@@ -96,6 +101,15 @@ export default function GithubProjects() {
                       </Typography>
                       <Typography variant="body2" color="text.secondary">
                         {project.description}
+                      </Typography>
+                      <Typography variant="body2" color="text.secondary">
+                        <MuiLink
+                          href={project.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {project.website}
+                        </MuiLink>
                       </Typography>
                     </CardContent>
                   </StyledCard>

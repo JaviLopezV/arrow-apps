@@ -70,24 +70,13 @@ export default function AppAppBar() {
               }}
               onClick={() => navigate("/")}
             />
-            <Box
-              component="img"
-              src="/logo2.png"
-              alt="Logo"
-              sx={{
-                height: 55,
-                width: "auto",
-                mr: 2, // margin-right
-                display: { xs: "flex", md: "none" },
-              }}
-              onClick={() => navigate("/")}
-            />
+
             <Box sx={{ display: { xs: "none", md: "flex", gap: 8 } }}>
               <Button
                 sx={{ textTransform: "none" }}
                 variant="text"
-                color="error"
-                size="small"
+                color="primary"
+                size="large"
                 onClick={() => navigate("/")}
               >
                 {translate("home")}
@@ -104,27 +93,27 @@ export default function AppAppBar() {
           >
             <Button
               sx={{ textTransform: "none", fontSize: 10 }}
-              color="error"
+              color="primary"
               variant={i18n.language === "en" ? "contained" : "text"}
-              size="small"
+              size="large"
               onClick={() => changeLanguage("en")}
             >
               EN
             </Button>
             <Button
               sx={{ textTransform: "none", fontSize: 10 }}
-              color="error"
+              color="primary"
               variant={i18n.language === "ca" ? "contained" : "text"}
-              size="small"
+              size="large"
               onClick={() => changeLanguage("ca")}
             >
               CA
             </Button>
             <Button
               sx={{ textTransform: "none", fontSize: 10 }}
-              color="error"
+              color="primary"
               variant={i18n.language === "es" ? "contained" : "text"}
-              size="small"
+              size="large"
               onClick={() => changeLanguage("es")}
             >
               ES
@@ -164,7 +153,7 @@ export default function AppAppBar() {
                 <MenuItem>
                   <Button
                     sx={{ textTransform: "none" }}
-                    color="error"
+                    color="primary"
                     variant={i18n.language === "en" ? "contained" : "outlined"}
                     fullWidth
                     onClick={() => changeLanguage("en")}
@@ -175,7 +164,7 @@ export default function AppAppBar() {
                 <MenuItem>
                   <Button
                     sx={{ textTransform: "none" }}
-                    color="error"
+                    color="primary"
                     variant={i18n.language === "es" ? "contained" : "outlined"}
                     fullWidth
                     onClick={() => changeLanguage("es")}
@@ -186,7 +175,7 @@ export default function AppAppBar() {
                 <MenuItem>
                   <Button
                     sx={{ textTransform: "none" }}
-                    color="error"
+                    color="primary"
                     variant={i18n.language === "ca" ? "contained" : "outlined"}
                     fullWidth
                     onClick={() => changeLanguage("ca")}

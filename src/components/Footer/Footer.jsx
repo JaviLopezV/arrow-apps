@@ -18,17 +18,14 @@ import { useTranslation } from "react-i18next";
 
 function Copyright() {
   return (
-    <Typography
-      variant="body2"
-      sx={{ color: "text.secondary", mt: 1, color: "white" }}
-    >
+    <Typography variant="body2" sx={{ mt: 1, color: "white" }}>
       {"Copyright © Javier López Villanueva - "}
       {new Date().getFullYear()}
     </Typography>
   );
 }
 
-export default function Footer({ showSubscribe = false }) {
+export default function Footer() {
   const navigate = useNavigate();
   const { t: translate } = useTranslation();
 

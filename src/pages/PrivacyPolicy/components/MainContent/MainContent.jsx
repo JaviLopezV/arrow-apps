@@ -1,6 +1,10 @@
 import React from "react";
 import i18n from "i18next";
-import { Typography, Box, Link as MuiLink } from "@mui/material";
+import {
+  Typography,
+  Box,
+  // Link as MuiLink
+} from "@mui/material";
 import { useTranslation } from "react-i18next";
 
 const MainContent = () => {
@@ -14,7 +18,7 @@ const MainContent = () => {
 
       <Typography variant="body1">{translate("intro")}</Typography>
 
-      <Box mt={2}>
+      {/* <Box mt={2}>
         <Typography variant="h6" gutterBottom>
           {translate("responsible")}
         </Typography>
@@ -32,7 +36,7 @@ const MainContent = () => {
             info@extintorespanoramica.com
           </MuiLink>
         </Typography>
-      </Box>
+      </Box> */}
 
       <Box mt={2}>
         <Typography variant="h6" gutterBottom>
