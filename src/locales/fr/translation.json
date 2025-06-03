@@ -1,4 +1,7 @@
 {
+  "password": "Password",
+  "enter_password": "Enter password",
+
   "home": "Accueil",
   "products": "Produits",
   "about": "Qui sommes-nous",

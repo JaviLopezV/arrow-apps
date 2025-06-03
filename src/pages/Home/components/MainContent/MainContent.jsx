@@ -3,14 +3,17 @@ import {
   Card,
   CardContent,
   CardMedia,
+  CardActions,
   Typography,
   Grid,
   Link,
   Box,
   Link as MuiLink,
+  Button,
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
-
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LanguageIcon from "@mui/icons-material/Language";
 const projects = [
   {
     title: "Proyecto 1",
@@ -89,29 +92,50 @@ export default function GithubProjects() {
                   }}
                 >
                   <StyledCard>
-                    <CardMedia
-                      component="img"
-                      height="200"
-                      image={project.image}
-                      alt={project.title}
-                    />
-                    <CardContent style={{ flexGrow: 1 }}>
-                      <Typography gutterBottom variant="h5" component="div">
-                        {project.title}
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        {project.description}
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        <MuiLink
+                    <Card sx={{ borderRadius: 4, boxShadow: 4 }}>
+                      <CardMedia
+                        component="img"
+                        height="180"
+                        image="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                        alt="GitHub Logo"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                          {project.title}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          {project.description}
+                        </Typography>
+                      </CardContent>
+                      <Box
+                        sx={{
+                          display: "flex",
+                          justifyContent: "center",
+                          px: 2,
+                          gap: 8,
+                          pb: 2,
+                        }}
+                      >
+                        <Button
+                          size="small"
+                          color="primary"
+                          startIcon={<GitHubIcon />}
+                          href={project.url}
+                          target="_blank"
+                        >
+                          GitHub
+                        </Button>
+                        <Button
+                          size="small"
+                          color="secondary"
+                          startIcon={<LanguageIcon />}
                           href={project.website}
                           target="_blank"
-                          rel="noopener noreferrer"
                         >
-                          {project.website}
-                        </MuiLink>
-                      </Typography>
-                    </CardContent>
+                          Sitio Web
+                        </Button>
+                      </Box>
+                    </Card>
                   </StyledCard>
                 </Link>
               </Box>

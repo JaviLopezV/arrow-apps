@@ -66,7 +66,6 @@ export default function AppAppBar() {
                 width: "auto",
                 borderRadius: 2,
                 mr: 2, // margin-right
-                display: { xs: "none", md: "flex" },
               }}
               onClick={() => navigate("/")}
             />
