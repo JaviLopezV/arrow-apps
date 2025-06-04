@@ -13,7 +13,9 @@ export default function Home() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 
-    const savedPassword = sessionStorage.getItem("app-password");
+    const savedPassword = sessionStorage.getItem(
+      import.meta.env.VITE_API_STORAGE_PASSWORD_KEY
+    );
     if (savedPassword) {
       setPassword(savedPassword);
     }
@@ -22,7 +24,10 @@ export default function Home() {
   const handleChange = (e) => {
     const newPassword = e.target.value;
     setPassword(newPassword);
-    sessionStorage.setItem("app-password", newPassword);
+    sessionStorage.setItem(
+      import.meta.env.VITE_API_STORAGE_PASSWORD_KEY,
+      newPassword
+    );
   };
 
   return (

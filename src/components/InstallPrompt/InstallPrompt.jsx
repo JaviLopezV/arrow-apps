@@ -14,7 +14,13 @@ export default function InstallPrompt() {
   const { t } = useTranslation();
 
   useEffect(() => {
-    if (!isMobileDevice()) return; // 👉 solo móviles
+    if (!isMobileDevice()) return;
+
+    // No mostrar si ya se tomó una decisión
+    const decision = localStorage.getItem(
+      import.meta.env.VITE_API_STORAGE_INSTALL_KEY
+    );
+    if (decision) return;
 
     const handler = (e) => {
       e.preventDefault();
@@ -32,14 +38,27 @@ export default function InstallPrompt() {
     const { outcome } = await deferredPrompt.userChoice;
     if (outcome === "accepted") {
       console.log("App instalada");
+      localStorage.setItem(
+        import.meta.env.VITE_API_STORAGE_INSTALL_KEY,
+        "accepted"
+      );
     } else {
       console.log("Instalación rechazada");
+      localStorage.setItem(
+        import.meta.env.VITE_API_STORAGE_INSTALL_KEY,
+        "dismissed"
+      );
     }
+
     setDeferredPrompt(null);
     setShowInstall(false);
   };
 
   const handleDismiss = () => {
+    localStorage.setItem(
+      import.meta.env.VITE_API_STORAGE_INSTALL_KEY,
+      "dismissed"
+    );
     setDeferredPrompt(null);
     setShowInstall(false);
   };
