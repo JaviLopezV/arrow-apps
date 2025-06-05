@@ -30,17 +30,20 @@ export default function Home() {
     );
   };
 
-  const isPasswordSet = import.meta.env.VITE_API_ENTER_PASSWORD;
-  console.log("🚀 ~ Home ~ isPasswordSet: typeof", typeof isPasswordSet);
-  console.log("🚀 ~ Home ~ isPasswordSet:", isPasswordSet);
+  const importPassword = import.meta.env.VITE_API_ENTER_PASSWORD;
+  console.log("🚀 ~ Home ~ password: typeof", typeof password);
+  console.log("🚀 ~ Home ~ password:", password);
+
+  console.log("🚀 ~ Home ~ importPassword: typeof", typeof importPassword);
+  console.log("🚀 ~ Home ~ importPassword:", importPassword);
 
   return (
     <>
-      {password !== import.meta.env.VITE_API_ENTER_PASSWORD && (
+      {password !== importPassword && (
         <SetPassword password={password} handleChange={handleChange} />
       )}
 
-      {password === import.meta.env.VITE_API_ENTER_PASSWORD && (
+      {password === importPassword && (
         <Box
           sx={{
             position: "relative",
