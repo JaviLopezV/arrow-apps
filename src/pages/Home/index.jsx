@@ -30,6 +30,10 @@ export default function Home() {
     );
   };
 
+  const isPasswordSet = import.meta.env.VITE_API_ENTER_PASSWORD;
+  console.log("🚀 ~ Home ~ isPasswordSet: typeof", typeof isPasswordSet);
+  console.log("🚀 ~ Home ~ isPasswordSet:", isPasswordSet);
+
   return (
     <>
       {password !== import.meta.env.VITE_API_ENTER_PASSWORD && (
