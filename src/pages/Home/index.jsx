@@ -31,11 +31,6 @@ export default function Home() {
   };
 
   const importPassword = import.meta.env.VITE_API_ENTER_PASSWORD;
-  console.log("🚀 ~ Home ~ password: typeof", typeof password);
-  console.log("🚀 ~ Home ~ password:", password);
-
-  console.log("🚀 ~ Home ~ importPassword: typeof", typeof importPassword);
-  console.log("🚀 ~ Home ~ importPassword:", importPassword);
 
   return (
     <>
